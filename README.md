@@ -43,7 +43,7 @@ __Lancement__ :
 
 __**Accès**__ :
 
-http://IP:8080
+http://IPDEVOTREMACHINE:8080
 
 ---
 
@@ -60,7 +60,7 @@ __Lancement__ :
 
 __**Accès**__ :
 
-http://IP:8081
+http://IPDEVOTREMACHINE:8081
 
 **Identifiants par défaut Zabbix** :
 
