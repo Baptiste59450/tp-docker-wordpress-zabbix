@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+
+  zabbix:
+    image: zabbix/zabbix-appliance:alpine-latest
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+      - "10051:10051"
+    environment:
+      TZ: Europe/Paris
