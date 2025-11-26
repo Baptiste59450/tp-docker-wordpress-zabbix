@@ -25,8 +25,7 @@ echo "Terminer"
 
 Exécution du script :
 
-`chmod +x install_docker.sh ` 
-
+`chmod +x install_docker.sh `    
 `./install_docker.sh`
 
 ---
