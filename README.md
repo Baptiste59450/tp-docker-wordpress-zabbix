@@ -12,16 +12,16 @@ Ce script permet d’installer Docker, Docker Compose, et d’activer le service
 
 Contenu du script :
 
-set -e  
-apt update  
-apt upgrade  
-apt install curl  
-apt install ca-certificates  
-curl https://get.docker.com | bash  
-apt install docker-compose  
-systemctl enable --now docker  
-systemctl start docker  
-echo "Terminer"
+`set -e    
+apt update    
+apt upgrade    
+apt install curl    
+apt install ca-certificates    
+curl https://get.docker.com | bash    
+apt install docker-compose    
+systemctl enable --now docker    
+systemctl start docker    
+echo "Terminer "`
 
 Exécution du script :
 
@@ -36,12 +36,12 @@ Le fichier docker-compose.yml pour WordPress se trouve dans :
 
 wordpress/docker-compose.yml
 
-Lancement :
+__Lancement__ :
 
 `cd wordpress  `  
-`docker compose up -d`
+`docker compose up -d`  
 
-Accès :
+__**Accès**__ :
 
 http://IP:8080
 
@@ -53,16 +53,16 @@ Le fichier docker-compose.yml pour Zabbix se trouve dans :
 
 zabbix/docker-compose.yml
 
-Lancement :
+__Lancement__ :
 
 `cd zabbix  `  
 `docker compose up -d`
 
-Accès :
+__**Accès**__ :
 
 http://IP:8081
 
-Identifiants par défaut Zabbix :
+**Identifiants par défaut Zabbix** :
 
 Admin  
 zabbix
@@ -71,12 +71,12 @@ zabbix
 
 ## Arrêter les services
 
-WordPress :
+__WordPress__ :
   
 `cd wordpress `   
 `docker compose down`
 
-Zabbix :
+__Zabbix__ :
 
 `cd zabbix  `  
 `docker compose down`
