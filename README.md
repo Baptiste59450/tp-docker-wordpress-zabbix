@@ -25,8 +25,8 @@ echo "Terminer"
 
 Exécution du script :
 
-`chmod +x install_docker.sh  
-./install_docker.sh`
+`chmod +x install_docker.sh ` 
+`./install_docker.sh`
 
 ---
 
@@ -38,8 +38,8 @@ wordpress/docker-compose.yml
 
 Lancement :
 
-`cd wordpress  
-docker compose up -d`
+`cd wordpress  `
+`docker compose up -d`
 
 Accès :
 
@@ -55,8 +55,8 @@ zabbix/docker-compose.yml
 
 Lancement :
 
-`cd zabbix  
-docker compose up -d`
+`cd zabbix  `
+`docker compose up -d`
 
 Accès :
 
@@ -73,10 +73,10 @@ zabbix
 
 WordPress :
 
-`cd wordpress  
-docker compose down`
+`cd wordpress ` 
+`docker compose down`
 
 Zabbix :
 
-`cd zabbix  
-docker compose down`
+`cd zabbix  `
+`docker compose down`
