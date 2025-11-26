@@ -38,7 +38,7 @@ wordpress/docker-compose.yml
 
 Lancement :
 
-`cd wordpress  `
+`cd wordpress  `  
 `docker compose up -d`
 
 Accès :
@@ -55,7 +55,7 @@ zabbix/docker-compose.yml
 
 Lancement :
 
-`cd zabbix  `
+`cd zabbix  `  
 `docker compose up -d`
 
 Accès :
@@ -72,11 +72,11 @@ zabbix
 ## Arrêter les services
 
 WordPress :
-
-`cd wordpress ` 
+  
+`cd wordpress `   
 `docker compose down`
 
 Zabbix :
 
-`cd zabbix  `
+`cd zabbix  `  
 `docker compose down`
