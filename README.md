@@ -12,16 +12,16 @@ Ce script permet d’installer Docker, Docker Compose, et d’activer le service
 
 Contenu du script :
 
-`set -e    
-apt update    
-apt upgrade    
-apt install curl    
-apt install ca-certificates    
-curl https://get.docker.com | bash    
-apt install docker-compose    
-systemctl enable --now docker    
-systemctl start docker    
-echo "Terminer "`
+`set -e`    
+`apt update`    
+`apt upgrade`     
+`apt install curl`     
+`apt install ca-certificates`     
+`curl https://get.docker.com | bash `   
+`apt install docker-compose  `   
+`systemctl enable --now docker`     
+`systemctl start docker  `   
+`echo "Terminer "`
 
 Exécution du script :
 
