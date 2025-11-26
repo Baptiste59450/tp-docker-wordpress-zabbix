@@ -2,7 +2,7 @@
 
 - Dossier `wordpress/` : docker-compose pour WordPress + MySQL
 - Dossier `zabbix/` : docker-compose pour Zabbix appliance
-- Ainsi qu’un script permettant d’installer Docker sur la machine.
+- Ainsi qu’un script `install_cocker.sh` permettant d’installer Docker sur la machine.
 
 Script : install_docker.sh
 Ce script permet d’installer Docker, Docker Compose, et d’activer le service Docker.
