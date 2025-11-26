@@ -64,7 +64,7 @@ http://IP:8081
 
 **Identifiants par défaut Zabbix** :
 
-**Admin  **
+**Admin**  
 **zabbix**
 
 ---
