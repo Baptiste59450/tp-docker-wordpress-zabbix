@@ -47,7 +47,7 @@ http://IP:8080
 
 ---
 
-## Zabbix (appliance)
+## Zabbix
 
 Le fichier docker-compose.yml pour Zabbix se trouve dans :
 
@@ -64,8 +64,8 @@ http://IP:8081
 
 **Identifiants par défaut Zabbix** :
 
-Admin  
-zabbix
+**Admin  **
+**zabbix**
 
 ---
 
